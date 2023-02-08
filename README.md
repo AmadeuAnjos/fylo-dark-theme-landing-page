@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo dark theme landing page
 
-![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)
+![project_fylo](https://user-images.githubusercontent.com/53497771/217403496-1253b8ca-497d-44be-867e-9aaa51884d89.png)
 
 ## Welcome! 👋
 
