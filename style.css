@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
 }
 
 body {
     background-color: hsl(217, 28%, 15%);
     font-size: 14px;
+
 }
 
 nav {
+    font-family: 'Raleway', sans-serif;
     width: 100vw;
     height: 80px;
     display: flex;
@@ -47,3 +51,112 @@ nav {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
+
+.banner1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#image1 {
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#curva-mobile {
+    margin-top: -45px;
+    z-index: -1;
+}
+
+.banner2 {
+    background-color: hsl(218, 28%, 13%);
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto1 {
+    display: flex;
+}
+
+.texto1 h1 {
+    margin-top: -60px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+
+.texto2 p {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0 20px 0 20px;
+    font-size: 1.0rem;
+}
+
+.botao {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao1 {
+    width: 280px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.image-pc {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto3 {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.texto4 {
+    padding: 15px 20px 0 20px;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.image-escudo,
+.image-colab,
+.image-pasta,
+.image-middle {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+#image2 {
+    width: 80%;
+}
+
+/*Cores
+
+.teste1 {
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(218, 28%, 13%);
+}
+
+.teste2 {
+    background-color: hsl(216, 53%, 9%);
+    color: hsl(219, 30%, 18%);
+}
+*/
