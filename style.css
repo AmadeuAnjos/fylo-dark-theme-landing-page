@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 
 * {
     margin: 0;
@@ -121,18 +119,25 @@ nav {
     align-items: center;
 }
 
-.texto3 {
+.titulo-h2 {
     color: white;
     margin-top: 30px;
     text-align: center;
     font-size: 0.7rem;
 }
 
-.texto4 {
+.paragrafo-central {
     padding: 15px 20px 0 20px;
     color: white;
     text-align: center;
     font-size: 0.9rem;
+}
+
+.paragrafo-centra {
+    padding: 15px 20px 0 20px;
+    color: white;
+    text-align: left;
+    font-size: 0.92rem;
 }
 
 .image-escudo,
@@ -146,6 +151,38 @@ nav {
 
 #image2 {
     width: 80%;
+    margin-bottom: 20px;
+}
+
+.linker p a {
+    text-decoration: none;
+    font-size: 1.0rem;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+.linker img {
+    margin-left: 5px;
+}
+
+.cards {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aspas img {
+    position: absolute;
+    width: 7%;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.card1 {
+    width: 80%;
+    height: 165px;
+    margin: auto;
 }
 
 /*Cores
