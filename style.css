@@ -175,17 +175,131 @@ nav {
 .aspas img {
     position: absolute;
     width: 7%;
-    margin-top: 120px;
+    margin-top: 128px;
     margin-left: 40px;
 }
 
-.card1 {
+.card1,
+.card2,
+.card3 {
+    background-color: hsl(219, 30%, 18%);
     width: 80%;
     height: 165px;
-    margin: auto;
+    margin: 0 auto 20px;
+    color: white;
+    font-size: 0.75rem;
 }
 
-/*Cores
+.card1 p,
+.card2 p,
+.card3 p {
+    margin: 14px 10px 0 13px;
+}
+
+.info-photo,
+.info-photo2,
+.info-photo3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-photo div {
+    margin: 13px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-image: url(./images/profile-1.jpg);
+    background-size: cover;
+}
+
+.info-photo2 div {
+    margin: 13px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-image: url(./images/profile-2.jpg);
+    background-size: cover;
+}
+
+.info-photo3 div {
+    margin: 13px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-image: url(./images/profile-3.jpg);
+    background-size: cover;
+}
+
+.info-photo h3,
+.info-photo2 h3,
+.info-photo3 h3 {
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.info-photo span,
+.info-photo2 span,
+.info-photo3 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    background-color: hsl(216, 53%, 9%);
+    margin-top: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.duvida {
+    margin: -160px auto 0 auto;
+    height: 340px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.duvida h3 {
+    color: white;
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.duvida p {
+    color: white;
+    margin: 20px 26px 25px 26px;
+    text-align: center;
+}
+
+.email input {
+    width: 280px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+#botao2 {
+    margin-top: -10px;
+    width: 280px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.logo-bottom {
+    margin-top: 70px;
+    margin-left: 30px;
+}
 
 .teste1 {
     background-color: hsl(217, 28%, 15%);
@@ -196,4 +310,3 @@ nav {
     background-color: hsl(216, 53%, 9%);
     color: hsl(219, 30%, 18%);
 }
-*/
