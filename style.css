@@ -301,9 +301,19 @@ nav {
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
     margin-top: -70px;
     height: 600px;
     background-color: hsl(216, 53%, 9%);
+}
+
+.map {
+    background-color: yellow;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons {
@@ -317,7 +327,7 @@ nav {
 .face {
     width: 50px;
     height: 50px;
-    background-image: url(./images/logo-facebook.svg);
+    background-image: url(./images/face.png);
     background-size: cover;
     margin: 15px;
     color: white;
@@ -326,7 +336,7 @@ nav {
 .twitter {
     width: 50px;
     height: 50px;
-    background-image: url(./images/logo-twitter.svg);
+    background-image: url(./images/twitter.png);
     background-size: cover;
     margin: 15px;
 }
@@ -334,18 +344,7 @@ nav {
 .insta {
     width: 50px;
     height: 50px;
-    background-image: url(./images/logo-instagram.svg);
+    background-image: url(./images/insta.png);
     background-size: cover;
     margin: 15px;
-}
-
-
-.teste1 {
-    background-color: hsl(217, 28%, 15%);
-    color: hsl(218, 28%, 13%);
-}
-
-.teste2 {
-    background-color: hsl(216, 53%, 9%);
-    color: hsl(219, 30%, 18%);
 }
