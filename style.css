@@ -303,7 +303,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 850px;
     background-color: hsl(216, 53%, 9%);
 }
 
@@ -381,4 +381,26 @@ nav {
     background-image: url(./images/insta.png);
     background-size: cover;
     margin: 15px;
+}
+
+.menu-rodape1 {
+    margin-top: 90px;
+}
+
+.menu-rodape1 a,
+.menu-rodape2 a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.menu-rodape2 {
+    margin-top: 50px;
+}
+
+.icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
